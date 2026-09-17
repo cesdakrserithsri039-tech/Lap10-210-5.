@@ -1,0 +1,63 @@
+h1 {
+    font-size: 50px;
+    color: blue;
+}
+.container{
+    width: 1024px;
+    display: flex;
+    padding: 10px;
+    margin: 20px auto;
+    border: 1px solid pink;
+}
+.container-gph{
+    width: 450px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(136, 7, 241);
+    background-color: rgba(0, 255, 255, 0,171);
+}
+
+.bar-block{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 10px;
+    /* background-color: blueviolet; */
+}
+.bar-name{
+    font-size: 30px;
+    color: blue;
+    width: 80px;
+    text-align: right;
+}
+.bar{
+    height: 55px;
+    background-color: chartreuse;
+    border: 1px solid red;
+    font-size: 20px;
+    text-align: right;
+}
+.container2gph{
+    display: flex;
+    width: 450px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(136, 7, 241);
+    background-color: rgba(0, 255, 255, 0.171);
+
+}
+.bar2block{
+    font-size: 30px;
+    color: blue;
+    width: 80px;
+    text-align: center;
+}
+.bar2{
+    width: 80px;
+    background-color: rgb(126, 186, 235);
+    border: 1px solid red;
+    font-size: 20px;
+    text-align: center;
+}

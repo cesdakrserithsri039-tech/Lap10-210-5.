@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตารางเรียน - วิศวกรรมคอมพิวเตอร์ 2/2569</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #0d0a1a;
+            color: #e2e8f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1100px;
+            background: #161224;
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid #2e1f47;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(147, 51, 234, 0.15);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            font-weight: 600;
+            color: #f3e8ff;
+            margin-bottom: 24px;
+            text-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 5px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #261738;
+            color: #d8b4fe;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 12px 6px;
+            border-radius: 6px;
+            border: 1px solid #3b2254;
+        }
+        .txtcenter {
+            background-color: #211732;
+            color: #c084fc;
+            font-weight: 600;
+            font-size: 14px;
+            width: 70px;
+            border-radius: 6px;
+            border: 1px solid #3b2254;
+        }
+        td {
+            background-color: #120e1f;
+            border: 1px solid #231a33;
+            border-radius: 6px;
+            font-size: 12px;
+            padding: 8px 4px;
+            height: 75px;
+            vertical-align: middle;
+            transition: all 0.25s ease;
+        }
+        td.subject {
+            font-weight: 500;
+            line-height: 1.4;
+            color: #ffffff;
+        }
+        td.subject:hover {
+            transform: translateY(-2px);
+            filter: brightness(1.2);
+        }
+        .subject-ge220 {
+            background: linear-gradient(135deg, #4c1d95 0%, #31106e 100%);
+            border: 1px solid #a855f7;
+            box-shadow: 0 0 10px rgba(168, 85, 247, 0.3);
+        }
+        .subject-en204-1 {
+            background: linear-gradient(135deg, #701a75 0%, #4a044e 100%);
+            border: 1px solid #d946ef;
+            box-shadow: 0 0 10px rgba(217, 70, 239, 0.3);
+        }
+        .subject-ge250 {
+            background: linear-gradient(135deg, #312e81 0%, #1e1b4b 100%);
+            border: 1px solid #6366f1;
+            box-shadow: 0 0 10px rgba(99, 102, 241, 0.3);
+        }
+        .subject-st205 {
+            background: linear-gradient(135deg, #5b21b6 0%, #3c0764 100%);
+            border: 1px solid #8b5cf6;
+            box-shadow: 0 0 10px rgba(139, 92, 246, 0.3);
+        }
+        .subject-en204-4 {
+            background: linear-gradient(135deg, #2e1065 0%, #172554 100%);
+            border: 1px solid #38bdf8;
+            box-shadow: 0 0 10px rgba(56, 189, 248, 0.3);
+        }
+        .subject-ge230 {
+            background: linear-gradient(135deg, #581c87 0%, #3b0764 100%);
+            border: 1px solid #c084fc;
+            box-shadow: 0 0 10px rgba(192, 132, 252, 0.3);
+        }
+        .subject-en204-2 {
+            background: linear-gradient(135deg, #86198f 0%, #500724 100%);
+            border: 1px solid #f43f5e;
+            box-shadow: 0 0 10px rgba(244, 63, 94, 0.3);
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #2e1f47;
+            margin: 24px 0 16px 0;
+        }
+        .footer {
+            text-align: center;
+            font-size: 13px;
+            color: #a855f7;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>ตารางเรียน วิศวกรรมคอมพิวเตอร์ 2/2569</h1>
+    <div class="table-responsive">
+<table>
+<tr>
+    <th style="width: 70px;">Day/Time</th>
+    <th style="width: 85px;">8.00-9.00</th>
+    <th style="width: 85px;">9.00-10.00</th>
+    <th style="width: 85px;">10.00-11.00</th>
+    <th style="width: 85px;">11.00-12.00</th>
+    <th style="width: 85px;">12.00-13.00</th>
+    <th style="width: 85px;">13.00-14.00</th>
+    <th style="width: 85px;">14.00-15.00</th>
+    <th style="width: 85px;">15.00-16.00</th>
+    <th style="width: 85px;">16.00-17.00</th>
+</tr>
+<tr>
+    <td class="txtcenter">จันทร์</td>
+    <td></td>
+    <td colspan="3" class="subject subject-ge220"><strong style="color: #f3e8ff;">GE220010B-2</strong><br>ห้อง 1961 ห้องเรียน<br>อาคาร 15</td>
+    <td></td>
+    <td colspan="4"></td>
+</tr>
+<tr>
+    <td class="txtcenter">อังคาร</td>
+    <td colspan="4" class="subject subject-en204-1"><strong style="color: #fce7f3;">EN2041101-2</strong><br>ห้อง 1957 ห้องเรียน<br>อาคาร 15</td>
+    <td></td>
+    <td colspan="4"></td>
+</tr>
+<tr>
+    <td class="txtcenter">พุธ</td>
+    <td colspan="2" class="subject subject-ge250"><strong style="color: #e0e7ff;">GE2500101-2</strong><br>โรงยิมชั้น 3<br>อาคาร 15</td>
+    <td colspan="2"></td>
+    <td></td>
+    <td colspan="3" class="subject subject-st205"><strong style="color: #ede9fe;">ST2051107-2</strong><br>ห้อง 1962 ห้องเรียน<br>อาคาร 15</td>
+    <td></td>
+</tr>
+<tr>
+    <td class="txtcenter">พฤหัส</td>
+    <td colspan="5"></td>
+    <td colspan="3" class="subject subject-en204-4"><strong style="color: #e0f2fe;">EN2044101-2</strong><br>ห้อง 1964 ห้องเรียน<br>อาคาร 15</td>
+    <td></td>
+</tr>
+<tr>
+    <td class="txtcenter">ศุกร์</td>
+    <td></td>
+    <td colspan="3" class="subject subject-ge230"><strong style="color: #f3e8ff;">GE2300110-2</strong><br>หาห้องให้ด้วย<br>อาคาร 15</td>
+    <td></td>
+    <td colspan="3" class="subject subject-en204-2"> <strong style="color: #ffe4e6;">EN2041102-2</strong><br>ห้อง 1958 ห้องเรียน<br>อาคาร 15</td>
+    <td></td>
+    </tr>
+</table>
+</div>
+<hr><div class="footer">สงวนสิทธิ์ © 056950405210-5 นายเจษฎากร เสริฐศรี สาขาวิศวกรรมคอมพิวเตอร์ CPE-RMUTP</div>
+</div>
+</body>
+</html>
